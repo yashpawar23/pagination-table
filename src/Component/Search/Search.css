@@ -1,0 +1,13 @@
+.Addimages-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+
+.searchBar{
+    width: 30%;
+}
+.addbtn{
+    width: 20%;
+}

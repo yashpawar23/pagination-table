@@ -1,0 +1,28 @@
+.Addimages-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
+.searchBar{
+  width: 30%;
+}
+.addbtn{
+  width: 20%;
+}
+
+.card_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .pagination_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }   

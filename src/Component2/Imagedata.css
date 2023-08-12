@@ -1,0 +1,50 @@
+.image-item-card{
+    width: 200px;
+    border: 2px solid grey;
+    margin: 40px 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.list-desc{
+    font-family:'Courier New', Courier, monospace;
+    line-height: 0.1rem;
+}
+.List-images{
+    width: 200px;
+    height: 150px;
+}
+.deletBtn{
+    display: block;
+    margin-left: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace;
+     font-weight: bold;
+     box-shadow: 5px 5px 10px grey;
+}
+
+/* ImageListcmp css */
+
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ImageAddCmp css */
+.addImg-btn{
+    width: 140px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgb(230, 226, 226);
+    margin: 20px;
+}
