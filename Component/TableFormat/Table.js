@@ -12,15 +12,9 @@ import { NavLink } from 'react-bootstrap';
 
 function Table(props) {
 
-  const { title, description, price, rating, thumbnail } = props;
 
   const [data, setData] = useState([])
   console.log(data)
-
-  const [newImages, setnewImages] = useState([])
-  const [newName, setnewName] = useState([])
-
-
 
   const [pageData, setPageData] = useState([])
   const [page, setPage] = useState(1)
